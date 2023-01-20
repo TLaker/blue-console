@@ -7,7 +7,9 @@ namespace blueConsole{
             public int posY;
         }
     public class MainClass{
-        
+        static char star = '*', space = '\x20';
+    	static int number = 0;
+        static Vector2 vector2;
 
         static int validateInput(){
             int number = 0;
@@ -21,22 +23,16 @@ namespace blueConsole{
             return number;
         }
 
-        static void Main(){
-            
-            //Console.BackgroundColor = ConsoleColor.DarkBlue;
-
-            char star = '*', space = '\x20';
-    	    int number = 0;
-            Vector2 vector2;
+        static void requestInput(){
             Console.WriteLine("Enter the height of the pyramid: ");
             number = validateInput();
 
             Console.WriteLine("Enter the Vector2 for the hidden char.");
-            Console.WriteLine("PosX: ");
-            vector2.posX = validateInput();
             Console.WriteLine("PosY: ");
+            vector2.posY = validateInput();
+            Console.WriteLine("PosX: ");
             do{
-                vector2.posY = validateInput();
+                vector2.posX = validateInput();
                 if(!(vector2.posY >= vector2.posX)){
                     Console.WriteLine("PosX must not be smaller than PosY");
                 }
@@ -45,9 +41,9 @@ namespace blueConsole{
                 }
             }
             while(!(vector2.posY >= vector2.posX && vector2.posY <= number));
-            
+        }
 
-
+        static void buildPyramid(){
             int t = number - 1;
 
             for(int i = 0; i < number; i++){
@@ -67,6 +63,16 @@ namespace blueConsole{
                 t--;
                 Console.Write('\n');
             }
+        }
+
+        static void Main(){
+            
+            //Console.BackgroundColor = ConsoleColor.DarkBlue;
+
+            requestInput();
+            buildPyramid();
+
+            
         }
     }
 }
