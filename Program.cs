@@ -3,7 +3,7 @@
 namespace blueConsole{
 
     public class MainClass{
-
+#region 
         static void doPyramid(){
             Console.Write('\n');
             Pyramid pyramid = new Pyramid();
@@ -50,7 +50,7 @@ namespace blueConsole{
             }
             letChoose();
         }
-
+#endregion
         static void Main(){
             
             //Console.BackgroundColor = ConsoleColor.DarkBlue;
