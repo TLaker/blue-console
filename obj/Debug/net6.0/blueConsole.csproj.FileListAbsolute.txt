@@ -1,0 +1,15 @@
+/home/tlaker/blueConsole/bin/Debug/net6.0/blueConsole
+/home/tlaker/blueConsole/bin/Debug/net6.0/blueConsole.deps.json
+/home/tlaker/blueConsole/bin/Debug/net6.0/blueConsole.runtimeconfig.json
+/home/tlaker/blueConsole/bin/Debug/net6.0/blueConsole.dll
+/home/tlaker/blueConsole/bin/Debug/net6.0/blueConsole.pdb
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.csproj.AssemblyReference.cache
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.AssemblyInfoInputs.cache
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.AssemblyInfo.cs
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.csproj.CoreCompileInputs.cache
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.dll
+/home/tlaker/blueConsole/obj/Debug/net6.0/refint/blueConsole.dll
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.pdb
+/home/tlaker/blueConsole/obj/Debug/net6.0/blueConsole.genruntimeconfig.cache
+/home/tlaker/blueConsole/obj/Debug/net6.0/ref/blueConsole.dll
